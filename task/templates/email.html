@@ -1,0 +1,11 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+
+<h1>"Forget Password Information"</h1>
+
+<h4>{{ commercial_registration_num }}</h4>
+<h4>{{ email }}</h4>
+
+
+<a href="{{ reset_password_link }}{{ reset_password_key }}">Click here to reset password</a>
